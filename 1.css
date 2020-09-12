@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon-footer a i:hover {
+    transition: 0.4s;
+    transform: rotate(360deg);
+}
+
+.send-mesagge a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.send-mesagge div {
+    width: 150px;
+    height: 35px;
+    background: #70b9b0;
+    border: solid 1px gray;
+    margin: 10px 0px;
+}
+
+.send-mesagge {
+    width: 60%;
+    margin: auto;
+}
+
+._1img.col-lg-4.col-sm-12 {
+    margin: 0px;
+    padding: 7px;
+    overflow: hidden;
+}
+
+.menu-fixed .menu .menu-content {
+    padding: 20px 0px;
+}
+
+.mid-portfolio img {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.responsive-menu a {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+ul.responsive-menu {list-style: none;
+    position: fixed;top: 100px;
+    right: 0;width: 35%;
+    height: 177px;
+    background-color: #4e817b;
+    text-align: center;
+    
+}
+
+ul.main-menu {
+    display: flex;
+    list-style: none;
+    transition: 0.4s;
+    padding: 40px 0px;
+}
+
+.main-menu li {
+    margin: 0px 10px;
+}
+
+i.fas.fa-bars {
+    font-size: 40px;
+    color: white;
+}
+
+i.fas.fa-bars:hover {
+    color: grey;
+    transition: 0.3s;
+}
+
+a.menu-icon {
+    position: fixed;
+    top: 37px;
+    right: 15%;
+    display: none;
+}
+
+i.fas.fa-bars {}
+
+#back-top a {
+    font-size: 35px;
+    color: #156b61;
+}
+
+i.fas.fa-arrow-circle-up:hover {transition: 0.4s;transform: scale(1.3);}
+
+#back-top a:hover {
+    color: #8c2d2d;
+}
+
+div#back-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: block;
+}
+
+.home.text-center {
+    margin-top: 100px;
+}
+
+.design-by a {
+    color: #4e817b;
+    font-family: cursive;
+}
+
+.design-by a:hover {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+p.design-by {
+    color: #b3b3b34d;
+}
+
+p.copyright {
+    color: #cecaca38;
+}
+
+i.fab.fa-linkedin:hover {
+    color: #6262fb;
+}
+
+i.fab.fa-google-plus-square:hover {
+    color: #a12525;
+}
+
+i.fab.fa-twitter-square:hover {
+    color: #7ee7da;
+}
+
+i.fab.fa-facebook-square:hover {
+    color: #4267b2;
+}
+
+i.fas.fa-rss-square:hover {
+    color: #e79601;
+}
+
+.icon-footer a {
+    margin: 10px;
+    font-size: 50px;
+    border-radius: 50%;
+    color: #50b7aa;
+}
+
+
+
+.icon-footer {padding-top: 100px;}
+
+
+.form-group p, .form-message p {
+    text-align: left;
+    margin: 0;
+}
+
+input.form-control {
+    background-color: #e5e5e5;
+    height: 50px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    background: #e5e5e5;
+}
+
+.form-message p {
+    font-weight: bolder;
+}
+
+.form-message {width: 60%;margin: auto;}
+
+.form-group label {
+    font-weight: bold;
+    margin: 0;
+}
+
+.form-group {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.top-contact .small-text {
+    color: dimgray;
+}
+
+.end-portfolio .small-text {
+    color: darkgray;
+}
+
+.end-portfolio h1 {
+    font-weight: 800;
+}
+
+.mid-portfolio {
+    width: 85%;
+    margin: auto;
+}
+
+.choose ul li {margin: 30px 10px 20px 10px;padding: 5px;background-color: lightgray;}
+
+.choose ul li:hover {
+    background-color: #70B9B0;
+    color: white;
+    transition: 0.4s;
+}
+.choose ul li a:hover{
+    text-decoration: none;
+    color:white;
+    transition: 0.2s;
+}
+
+
+.choose.align-content-center {width: 20%;margin: auto;}
+
+.choose.align-content-center {}
+
+.choose ul {
+    display: flex;
+    list-style: none;
+}
+
+.about, .portfolio, .contact {
+    margin: 70px 0px 0 0px;
+}
+
+.end-about .small-text {
+    color: gray;
+}
+
+.end-about h1 {
+    font-weight: 900;
+}
+
+.end-about {
+    margin-top: 70px;
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+    color: white;
+    background-image: url("image/parallax/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.job {
+    margin-top: 20px;
+    color: dimgray;
+}
+
+.our-infor .name {
+    margin-top: 15px;
+}
+
+.end-home p.small-text {
+    width: 70%;
+    margin: auto;
+    color: #000000;
+    font-weight: bolder;
+    border: double;
+    background: #ffffff73;
+}
+
+.end-home {
+    width: 100%;
+    height: 300px;
+    background-image: url("image/parallax/img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 7%;
+    }
+
+.home h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.home .icon {
+    font-size: 65px;
+    margin-top: 50px;
+    color: gray;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.end-portfolio {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 300px;
+    padding-top: 5%;
+    background-image: url("image/parallax/img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.mid-portfolio .row {
+    width: 100%;
+    margin: auto;
+}
+
+header.row {
+    width: 100%;
+    margin: 0;
+    transition: 0.4s;
+}
+
+header.row.menu-fixed {
+    height: 57px;
+}
+
+.top-contact.row {
+    margin-bottom: 30px;
+}
+
+.our-infor img {
+    border-radius: 50%;
+}
+
+.top-about .small-text, .top-portfolio .small-text {
+    color: dimgray;
+}
+
+.about .top-about h1, .portfolio .top-portfolio h1, .contact .top-contact h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.top-about.row {
+    margin-bottom: 40px;
+}
+
+.about.container.text-center {
+    margin: 70px auto 70px auto;
+}
+
+.home .section-service p {
+    color: dimgray;
+}
+.intro-home p.small-text {
+    width: 50%;
+    margin: auto;
+}
+
+h1.welcome {
+    font-weight: bolder;
+}
+
+i.fas.fa-flask {
+    font-size: 65px;
+    margin-top: 90px;
+}
+
+.intro-home {
+    width: 100%;
+    height: 500px;
+    background-color: #70b9b0;
+    color: white;
+}
+
+
+.main-menu a {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.choose ul li a {
+    color: black;
+    text-transform: inherit;
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    color: #70B9B0;
+    transition: 0.2s;
+    font-size: 19px;
+}
+
+.responsive-menu li {border: solid 1px #c4c4c452;height: 45px;padding: 8px;}
+
+.menu .main-menu ul {
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+
+
+h2.logo {
+
+height: 100px;
+
+line-height: 100px;
+
+padding-left: 20px;
+
+color: white;
+
+font-weight: bolder;
+
+transition: 0.4s;
+}
+
+.menu-fixed h2.logo.col-md-6.col-sm-3 {
+    height: 57px;
+    line-height: 57px;
+}
+
+header {
+    background-color: #4e817b;
+    width: 100%;
+    display: flex;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.section-service{
+    margin: auto;
+}
+
+.section-service.container.row.text-center {
+    margin-bottom: 60px;
+   
+}
+
+.body, html{
+    background-color: #f7f7f7;
+}
+
+.footer{
+    width:100%;
+    height: 300px;
+    background-color: #242424;
+
+}
+#map {
+    width: 100%;
+    height: 400px;
+}
+/* .section-service.container.row.text-center div{
+    opacity: 0; visibility: hidden;
+}
+
+.section-service.container.row.text-center.show-section-service div {
+    animation: show-section-service 0.5s forwards;
+}
+@-webkit-keyframes show-section-service{
+    0%{opacity: 0; visibility: hidden; transform: scale(0.5)}
+    100%{opacity: 1; visibility: visible; transform: scale(1)}
+}
+.section-service.container.row.text-center.show-section-service div:nth-child(1){
+    animation-delay: 0.2s
+}
+.section-service.container.row.text-center.show-section-service div:nth-child(2){
+    animation-delay: 0.4s
+}
+.section-service.container.row.text-center.show-section-service div:nth-child(3){
+    animation-delay: 0.6s
+} */
+
+
+.mid-portfolio img:hover {
+    animation: zoom 1s forwards;
+}
+@-webkit-keyframes zoom{
+    from{transform: scale(1)}
+    to{transform: scale(1.5);}
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        widows: 100%;
+        height: 50%;
+        position: fixed;
+        text-align: center;
+        overflow: auto;
+    }
+    .menu .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
